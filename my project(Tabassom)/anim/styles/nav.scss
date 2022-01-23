@@ -1,0 +1,46 @@
+
+
+.top-bar{
+    padding: 10px;
+    position: relative;
+    background-color: transparent;
+    height: 10vh;
+    border-radius: $border;
+    border:$color 3px solid;
+
+
+    img {
+        position: absolute;
+        height: 70%;
+        width: auto;
+        top: 50%;
+        transform: translateY(-50%); 
+        border-radius: $border;
+    }
+
+    div  {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+    a {
+        padding: 10px;
+        margin-left: 5px;
+        font-weight: bold;
+        font-family: serif;
+        text-decoration: none;
+        color:$color;
+        font-size: 1.5rem;
+
+        @media screen and (max-width: 1000px) {
+            font-size: 20px;
+        }
+        /*
+        @media screen and (max-width: 481px) {
+            font-size: x-small;
+        }
+        */
+    }
+}

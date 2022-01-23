@@ -1,0 +1,19 @@
+.GallerySection{
+    padding: 10px;
+    margin-top: 2%;
+}
+
+.sectionImg {
+    /*position: relative;*/
+    width: calc(50% - 20px);
+    height: auto;
+    margin: 5px;
+    border-radius: $border;
+
+     /*---------------new-------------------*/
+    @media screen and (max-width: 1000px) {
+        width : calc(100% - 20px);
+      }
+}
+
+body {overflow: scroll;}

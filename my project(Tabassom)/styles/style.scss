@@ -1,0 +1,56 @@
+@import "variable.scss";
+@import "background.scss";
+@import "nav.scss";
+@import "home.scss";
+@import "contact.scss";
+@import "product.scss";
+@import "gallery.scss";
+
+.blackBody {
+    background-color: black;
+}
+
+.borderClass {
+    margin-top: 10px;
+    border-radius: $border;
+    border: $color 3px solid;   
+}
+
+.aColor {
+    color: $color;
+    display: block;
+    text-decoration: none;
+}
+
+/*-------------post.html--------------*/
+
+.secMargin{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+     /*---------------new-------------------*/
+     .subSec{
+        margin: 10px;
+        padding: 10px;
+        width: 45vw;
+        display: inline-block;
+
+         @media screen and (max-width: 481px) {
+            width: 100%;
+          }
+         
+    
+    }
+        
+    .subImg
+    {
+    width: 50%;
+    height: auto;   
+
+     @media screen and (max-width: 481px) {
+            width: 100%;
+          }
+         
+    
+    }
